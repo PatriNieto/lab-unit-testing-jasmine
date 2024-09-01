@@ -7,6 +7,4 @@ if (numOne == undefined || numTwo == undefined) {
 return numOne * numTwo;     
 }
 
-console.log(divide(4,2));
-console.log(divide(200,4));
-console.log(divide(4));
+

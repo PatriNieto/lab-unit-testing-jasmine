@@ -8,6 +8,4 @@ function divide (numOne,numTwo) {
 return numOne / numTwo;     
 }
 
-console.log(divide(4,2));
-console.log(divide(200,4));
-console.log(divide(2,4));
+

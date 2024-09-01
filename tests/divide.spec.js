@@ -16,9 +16,9 @@ describe("Iteration 2 | Divide", () => {
             expect(divide(2,4)).toEqual(0.5);
         });
         it("should return undefined if any of the arguments is not provided", () => {
-            expect(add(1)).toEqual(undefined);
-            expect(add()).toEqual(undefined);
-            expect(add(undefined, 1)).toEqual(undefined);
+            expect(divide(1)).toEqual(undefined);
+            expect(divide()).toEqual(undefined);
+            expect(divide(undefined, 1)).toEqual(undefined);
         });
     })    
 })
